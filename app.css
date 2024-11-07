@@ -1,0 +1,74 @@
+.body_pag {
+
+    margin: 5px;
+    border-radius: 23px;
+    border-style: groove;
+    position: relative;
+    display: block;
+    width: 270px;
+    height: 380px;
+
+}
+.title_Princ {
+    background-color: rgba(4, 252, 190, 0.226);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12% ;
+    border-width: 12px;
+    
+}
+h1 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    color: rgb(12, 12, 12);
+
+}
+form {
+    background-position: center;
+    margin: 10px;
+    width: 240px;
+    height: 340px;
+    position: relative;
+    padding: 10px;
+    border-width: 12px;
+    border-block-end-style: inset;
+}
+
+div .talla, .peso , .Resultado{
+    padding: 5px;
+    margin: 5px;
+}
+
+.lista_usuarios {
+    margin-top: 20px;
+}
+
+#listaUsuarios li{
+    margin: 10px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #666;
+}
+in
+.danger {background-color: #a9cce3;} 
+.danger:hover {background: #a9cce3;}
+
+button.editar, button.eliminar {
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.editar {
+    background-color: #ffd966;
+}
+
+button.eliminar {
+    background-color: #ff6f6f;
+    color: white;
+}

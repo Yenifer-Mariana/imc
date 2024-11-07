@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" href="app.css" type="text/css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IMC</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+    
+<body class="body_pag">
+    <div class="title_Princ">
+        <a>
+            <h1>Indice de Masa Corporal
+            </h1>
+        </a>
+    </div>
+    <div class="form_IMC">
+        <form  id="formulario" onsubmit="guardarUsuario(event)">
+            <div class="nombre">
+                <label>Nombre</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="talla">
+                <label>Talla (cm)</label>
+                <input type="text" id="talla" required>
+            </div>
+            <div class="peso">
+                <label> Peso (kg)</label>
+                <input type="text" id="peso" required>
+            </div>
+            <button type="submit">Calcular IMC</button>
+        </form>
+        <div id="Resultado"></div>
+    </div>
+    <div class="lista_usuarios">
+        <h2>Lista de Usuarios</h2>
+        <ul id="listaUsuarios"></ul>
+    </div>
+</body>
+</body>
+</html>
